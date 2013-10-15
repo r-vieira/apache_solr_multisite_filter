@@ -7,4 +7,16 @@ Apache SOLR Multisite Filter
 This Drupal 7 module restricts the search results from a shared Apache SOLR index to the current site only.
 
 
+[REQUIREMENTS]
+
+- apachesolr
+
+
+
+[INSTALL]
+
+1. Clone the module into your DRUPAL_ROOT/sites/all/modules/
+2. Navigate to DRUPAL_URL/admin/modules and enable the module.
+3. Navigate to DRUPAL_URL/admin/config/search/apachesolr/multisite and enable the filter.
+
 
