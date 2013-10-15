@@ -1,0 +1,9 @@
+<?php
+
+/**
+ * Restrict the SOLR search results to the current site. 
+ * See: https://drupal.org/node/698042
+ */
+function amps_apache_solr_site_filter_apachesolr_query_alter($query){
+  $query->addFilter('hash', apachesolr_site_hash());
+}
