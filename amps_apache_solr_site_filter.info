@@ -1,3 +1,6 @@
-name = Apache SOLR Site Filter
+name = Apache SOLR Multisite Filter
 description = Restricts the search results to the current site only. Useful for shared SOLR indexes across multiple sites. 
 core = 7.x
+configure = admin/config/search/apachesolr/multisite
+
+requires[] = apachesolr
