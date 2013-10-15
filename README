@@ -1,8 +1,10 @@
 NORTHWESTERN UNIVERSITY
 Advanced Media Production Studio
+Rodolfo Vieira 
 
 Apache SOLR Multisite Filter
 
-Author: Rodolfo Vieira
+This Drupal 7 module restricts the search results from a shared Apache SOLR index to the current site only.
+
 
 
